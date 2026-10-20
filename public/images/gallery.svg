@@ -1,0 +1,10 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f5f7fa"/>
+  <rect x="30" y="30" width="340" height="200" rx="6" stroke="#dfe3ec" stroke-width="2" fill="none"/>
+  <rect x="70" y="70" width="70" height="70" rx="4" fill="#14264f"/>
+  <rect x="160" y="70" width="70" height="70" rx="4" fill="#c8952e"/>
+  <rect x="260" y="70" width="70" height="70" rx="4" fill="#14264f"/>
+  <rect x="100" y="160" width="200" height="40" rx="4" fill="#eef2f7"/>
+  <rect x="120" y="220" width="160" height="30" rx="3" fill="#dfe3ec"/>
+  <text x="200" y="270" font-family="Lato, Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle">[Replace with real photograph]</text>
+</svg>

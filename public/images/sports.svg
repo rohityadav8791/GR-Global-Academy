@@ -1,0 +1,14 @@
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" fill="#f5f7fa"/>
+  <rect x="0" y="300" width="900" height="300" fill="#8fc37a"/>
+  <rect x="0" y="0" width="900" height="320" fill="#dbe7f4"/>
+  <path d="M0 300 Q 150 270 450 300 T 900 300" fill="none" stroke="#5b8c4d" stroke-width="5"/>
+  <rect x="50" y="340" width="200" height="120" rx="6" fill="#ffffff" stroke="#dfe3ec" stroke-width="2"/>
+  <rect x="650" y="340" width="200" height="120" rx="6" fill="#ffffff" stroke="#dfe3ec" stroke-width="2"/>
+  <circle cx="150" cy="400" r="20" fill="#122645" opacity="0.8"/>
+  <circle cx="750" cy="400" r="20" fill="#c8952e" opacity="0.9"/>
+  <rect x="80" y="380" width="140" height="40" rx="4" fill="#eef2f7"/>
+  <rect x="680" y="380" width="140" height="40" rx="4" fill="#eef2f7"/>
+  <rect x="300" y="430" width="300" height="100" rx="4" fill="#122645" opacity="0.9"/>
+  <text x="450" y="490" font-family="Lato, Arial, sans-serif" font-size="17" fill="#ffffff" text-anchor="middle">[Replace with real sports photograph]</text>
+</svg>

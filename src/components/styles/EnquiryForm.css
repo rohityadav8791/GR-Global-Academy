@@ -1,0 +1,74 @@
+.form-container {
+  max-width: 880px;
+  margin: 0 auto;
+  background: white;
+  padding: 3rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+
+.enquiry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 700;
+  color: var(--text);
+  font-size: 0.9375rem;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.875rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  background: #fff;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--navy-light);
+  box-shadow: 0 0 0 3px rgba(30, 58, 112, 0.1);
+}
+
+.form-submit {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+.form-submit .btn {
+  padding: 0.95rem 3rem;
+}
+
+.form-note {
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .form-container { padding: 1.75rem 1.25rem; }
+  .form-row { grid-template-columns: 1fr; gap: 1.25rem; }
+}

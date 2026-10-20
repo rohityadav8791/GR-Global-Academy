@@ -1,0 +1,7 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#f3e8d7"/>
+  <circle cx="200" cy="140" r="70" fill="#dbb88c"/>
+  <circle cx="200" cy="240" r="90" fill="#122645" opacity="0.9"/>
+  <rect x="140" cy="300" width="120" height="60" fill="#7a263a" rx="4"/>
+  <text x="200" y="370" font-family="Lato, Arial, sans-serif" font-size="14" fill="#666666" text-anchor="middle">[Principal Portrait — Editable]</text>
+</svg>

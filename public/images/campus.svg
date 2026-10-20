@@ -1,0 +1,28 @@
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#eef5ff;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#dbe7f4;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="#f5f7fa"/>
+  <rect x="0" y="320" width="900" height="280" fill="#8fc37a"/>
+  <rect x="0" y="0" width="900" height="340" fill="url(#sky)"/>
+  <path d="M0 320 Q 225 290 450 320 T 900 320" fill="none" stroke="#5b8c4d" stroke-width="5"/>
+  <g fill="#ffffff" opacity="0.97">
+    <rect x="180" y="140" width="540" height="170" rx="6" stroke="#c8952e" stroke-width="3"/>
+    <rect x="280" y="110" width="120" height="40" rx="4" fill="#c8952e"/>
+    <rect x="460" y="110" width="40" height="35" fill="#c8952e"/>
+    <rect x="680" y="110" width="40" height="35" fill="#c8952e"/>
+    <circle cx="380" cy="125" r="11" fill="#c8952e"/>
+    <circle cx="680" cy="125" r="11" fill="#c8952e"/>
+  </g>
+  <rect x="120" y="260" width="150" height="50" fill="#122645" rx="6"/>
+  <rect x="630" y="270" width="150" height="40" fill="#122645" rx="6"/>
+  <text x="450" y="330" font-family="Lato, Arial, sans-serif" font-size="28" fill="#ffffff" opacity="0.95" text-anchor="middle" font-weight="bold">GR Global Academy</text>
+  <text x="450" y="360" font-family="Lato, Arial, sans-serif" font-size="16" fill="#ffffff" opacity="0.9" text-anchor="middle">[Replace with real campus photograph]</text>
+  <g fill="#dbe7f4" opacity="0.55">
+    <circle cx="150" cy="110" r="40"/>
+    <circle cx="850" cy="100" r="30"/>
+  </g>
+</svg>

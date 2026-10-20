@@ -1,0 +1,13 @@
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" fill="#f5f7fa"/>
+  <path d="M60 300 L450 140 L840 300 Z" fill="#122645"/>
+  <rect x="100" y="300" width="700" height="260" fill="#ffffff" stroke="#dfe3ec" stroke-width="2" rx="6"/>
+  <rect x="160" y="360" width="120" height="100" rx="4" fill="#eef4ff" stroke="#dfe3ec" stroke-width="2"/>
+  <rect x="330" y="360" width="120" height="100" rx="4" fill="#eef4ff" stroke="#dfe3ec" stroke-width="2"/>
+  <rect x="500" y="360" width="120" height="100" rx="4" fill="#eef4ff" stroke="#dfe3ec" stroke-width="2"/>
+  <rect x="190" y="420" width="60" height="40" rx="4" fill="#c8952e" opacity="0.9"/>
+  <rect x="360" y="420" width="60" height="40" rx="4" fill="#c8952e" opacity="0.9"/>
+  <rect x="530" y="420" width="60" height="40" rx="4" fill="#c8952e" opacity="0.9"/>
+  <rect x="380" y="490" width="140" height="70" rx="4" fill="#122645"/>
+  <text x="450" y="570" font-family="Lato, Arial, sans-serif" font-size="17" fill="#475569" text-anchor="middle">[Replace with real student activity photograph]</text>
+</svg>

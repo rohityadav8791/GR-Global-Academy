@@ -1,0 +1,30 @@
+.welcome-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.welcome-text h3 {
+  color: var(--burgundy-dark);
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.welcome-text h3:first-child { margin-top: 0; }
+
+.welcome-text p {
+  font-size: 1.02rem;
+  margin-bottom: 1.25rem;
+}
+
+.welcome-actions {
+  margin-top: 1.5rem;
+}
+
+.welcome-image { height: 100%; width: 100%; }
+
+@media (max-width: 768px) {
+  .welcome-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .welcome-image { order: -1; height: 340px; }
+}

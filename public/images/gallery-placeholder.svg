@@ -1,0 +1,7 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f5f7fa"/>
+  <rect x="40" y="40" width="320" height="180" rx="4" stroke="#d1d5db" stroke-width="2" fill="none"/>
+  <circle cx="140" cy="120" r="30" stroke="#d1d5db" stroke-width="2" fill="none"/>
+  <path d="M60 200 L140 140 L200 180 L340 90 L340 200 L60 200 Z" stroke="#d1d5db" stroke-width="2" fill="#e5e7eb"/>
+  <text x="200" y="260" font-family="Lato, Arial, sans-serif" font-size="14" fill="#4b5563" text-anchor="middle">School Activity - [Edit Image]</text>
+</svg>

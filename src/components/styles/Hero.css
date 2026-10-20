@@ -1,0 +1,140 @@
+.hero {
+  position: relative;
+  padding: 2rem 0;
+  background: var(--cream);
+  overflow: visible;
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  align-items: center;
+  min-height: 80vh;
+  max-height: 750px;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  overflow: visible;
+  border: 1px solid var(--border);
+}
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image .image-wrap {
+  height: 100%;
+}
+
+.hero-image .image-wrap img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.image-badge {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  z-index: 2;
+}
+
+.hero-content {
+  padding: 5rem 4rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-kicker {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold-dark);
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.hero-content h1 {
+  color: var(--burgundy-dark);
+  margin-bottom: 1.25rem;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  color: var(--text-secondary);
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  line-height: 1.7;
+  max-width: 520px;
+}
+
+.hero-highlights {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.highlight-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.highlight-value {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--burgundy-dark);
+}
+
+.highlight-label {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero-buttons .btn-outline {
+  color: var(--burgundy-dark);
+  border-color: var(--burgundy-dark);
+}
+
+.hero-buttons .btn-outline:hover {
+  background-color: var(--burgundy-dark);
+  color: var(--white);
+}
+
+@media (max-width: 992px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    max-height: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid var(--border);
+  }
+  .hero-content {
+    padding: 3.5rem 2rem;
+    text-align: center;
+    align-items: center;
+  }
+  .hero-subtitle { margin-left: auto; margin-right: auto; }
+  .hero-highlights { justify-content: center; }
+  .hero-buttons { justify-content: center; }
+  .hero-image { order: -1; }
+  .hero-image .image-wrap {
+    height: 420px;
+    border-radius: 0;
+  }
+  .hero-image .image-wrap img { border-radius: 0; }
+  .image-badge { bottom: 1rem; left: 1rem; }
+}

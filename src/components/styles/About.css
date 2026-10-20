@@ -1,0 +1,26 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-image { height: 100%; width: 100%; }
+
+.about-text h3 {
+  color: var(--navy-dark);
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-text h3:first-child { margin-top: 0; }
+
+.about-text p {
+  font-size: 1.02rem;
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .about-image { order: -1; height: 340px; }
+}
